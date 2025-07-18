@@ -19,6 +19,40 @@
    <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/caixa/caixa-up2.wav" tx:id="14"/>
    <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/caixa/caixa-up3.wav" tx:id="15"/>
    <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/caixa/caixa-up4.wav" tx:id="16"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/surdo/surdo1-1.wav" tx:id="17"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/surdo/surdo2-1.wav" tx:id="18"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/surdo/surdo1-2.wav" tx:id="19"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/surdo/surdo2-2.wav" tx:id="20"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/surdo/terceira-preso2.wav" tx:id="21"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/surdo/terceira-preso1.wav" tx:id="22"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/surdo/terceira-mao1.wav" tx:id="23"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/surdo/terceira-solto1.wav" tx:id="24"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/surdo/terceira-solto2.wav" tx:id="25"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/tamborim/tamb1-1.wav" tx:id="26"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/tamborim/tamb1-2.wav" tx:id="27"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/tamborim/tamb2-1.wav" tx:id="28"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/tamborim/tamb2-2.wav" tx:id="29"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/tamborim/tamb3-1.wav" tx:id="30"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/tamborim/tamb3-2.wav" tx:id="31"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/tamborim/tamb4-1.wav" tx:id="32"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/tamborim/tamb4-2.wav" tx:id="33"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/chocalho/choc-frente1.wav" tx:id="34"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/chocalho/choc-frente2.wav" tx:id="35"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/chocalho/choc-tras1.wav" tx:id="36"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/chocalho/choc-tras2.wav" tx:id="37"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/chocalho/choc-parada1.wav" tx:id="38"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/agogo/agogo4b-boca4-1.wav" tx:id="39"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/agogo/agogo4b-boca4-2.wav" tx:id="40"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/agogo/agogo4b-boca3-1.wav" tx:id="41"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/agogo/agogo4b-boca3-2.wav" tx:id="42"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/agogo/agogo4b-boca2-1.wav" tx:id="43"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/agogo/agogo4b-boca2-2.wav" tx:id="44"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/agogo/agogo4b-boca1-1.wav" tx:id="45"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/agogo/agogo4b-boca1-2.wav" tx:id="46"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/agogo/agogo2b-boca2-1.wav" tx:id="47"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/agogo/agogo2b-boca2-2.wav" tx:id="48"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/agogo/agogo2b-boca1-1.wav" tx:id="49"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/agogo/agogo2b-boca1-2.wav" tx:id="50"/>
    <tx:bounds tx:high-vel="127" tx:low-key="C-1" tx:high-key="G9" tx:low-vel="0"/>
    <tx:soundshape tx:id="57ceb05a-9a5d-4232-89e7-bff0d506be9c" tx:name="New Sound" tx:pan="0%" tx:unison-depth="100%"
       tx:unison="1" tx:pwm="0%" tx:volume="0 dB" tx:glide-mode="Held" tx:unison-spread="0Ct" tx:unison-pan="100%"
@@ -35,59 +69,177 @@
       tx:polymode="Poly" tx:playback="Resample" tx:noteprio="Last" tx:scale="100" tx:choke-group="0" tx:output="--"
       tx:quality="Default" tx:color="aliceblue" tx:soundshape="57ceb05a-9a5d-4232-89e7-bff0d506be9c">
       <tx:region tx:mode="DFD" tx:attenuation="0 dB" tx:pan="0%" tx:wave="0">
-         <tx:bounds tx:high-vel="127" tx:low-key="C-1" tx:low-vel="0" tx:high-key="C-1"/>
+         <tx:bounds tx:high-vel="127" tx:low-key="C0" tx:low-vel="0" tx:high-key="C0"/>
       </tx:region>
       <tx:region tx:mode="DFD" tx:attenuation="0 dB" tx:pan="0%" tx:wave="1">
-         <tx:bounds tx:high-vel="127" tx:low-key="C#-1" tx:low-vel="0" tx:high-key="C#-1"/>
+         <tx:bounds tx:high-vel="127" tx:low-key="C#0" tx:low-vel="0" tx:high-key="C#0"/>
       </tx:region>
       <tx:region tx:mode="DFD" tx:attenuation="0 dB" tx:pan="0%" tx:wave="2">
-         <tx:bounds tx:high-vel="127" tx:low-key="D#-1" tx:low-vel="0" tx:high-key="D#-1"/>
+         <tx:bounds tx:high-vel="127" tx:low-key="D#0" tx:low-vel="0" tx:high-key="D#0"/>
       </tx:region>
       <tx:region tx:mode="DFD" tx:attenuation="0 dB" tx:pan="0%" tx:wave="3">
-         <tx:bounds tx:high-vel="127" tx:low-key="E-1" tx:low-vel="0" tx:high-key="E-1"/>
+         <tx:bounds tx:high-vel="127" tx:low-key="E0" tx:low-vel="0" tx:high-key="E0"/>
       </tx:region>
       <tx:region tx:mode="DFD" tx:attenuation="0 dB" tx:pan="0%" tx:wave="4">
-         <tx:bounds tx:high-vel="127" tx:low-key="D-1" tx:low-vel="0" tx:high-key="D-1"/>
+         <tx:bounds tx:high-vel="127" tx:low-key="D0" tx:low-vel="0" tx:high-key="D0"/>
       </tx:region>
       <tx:region tx:mode="DFD" tx:attenuation="0 dB" tx:pan="0%" tx:wave="5">
-         <tx:bounds tx:high-vel="127" tx:low-key="F-1" tx:low-vel="0" tx:high-key="F-1"/>
+         <tx:bounds tx:high-vel="127" tx:low-key="F0" tx:low-vel="0" tx:high-key="F0"/>
       </tx:region>
       <tx:region tx:mode="DFD" tx:attenuation="0 dB" tx:pan="0%" tx:wave="6">
-         <tx:bounds tx:high-vel="127" tx:low-key="G-1" tx:low-vel="0" tx:high-key="G-1"/>
+         <tx:bounds tx:high-vel="127" tx:low-key="G0" tx:low-vel="0" tx:high-key="G0"/>
       </tx:region>
       <tx:region tx:mode="DFD" tx:attenuation="0 dB" tx:pan="0%" tx:wave="7">
-         <tx:bounds tx:high-vel="127" tx:low-key="F#-1" tx:low-vel="0" tx:high-key="F#-1"/>
+         <tx:bounds tx:high-vel="127" tx:low-key="F#0" tx:low-vel="0" tx:high-key="F#0"/>
       </tx:region>
       <tx:region tx:mode="DFD" tx:attenuation="0 dB" tx:pan="0%" tx:wave="8">
-         <tx:bounds tx:high-vel="127" tx:low-key="A-1" tx:low-vel="0" tx:high-key="A-1"/>
+         <tx:bounds tx:high-vel="127" tx:low-key="A0" tx:low-vel="0" tx:high-key="A0"/>
       </tx:region>
       <tx:region tx:mode="DFD" tx:attenuation="0 dB" tx:pan="0%" tx:wave="9">
-         <tx:bounds tx:high-vel="127" tx:low-key="G#-1" tx:low-vel="0" tx:high-key="G#-1"/>
+         <tx:bounds tx:high-vel="127" tx:low-key="G#0" tx:low-vel="0" tx:high-key="G#0"/>
       </tx:region>
    </tx:group>
    <tx:group tx:name="Caixa" tx:volume="0 dB" tx:pan="0%" tx:coarse="0" tx:fine="0" tx:playmode="Oneshot"
       tx:polymode="Poly" tx:playback="Resample" tx:noteprio="Last" tx:scale="100" tx:choke-group="0" tx:output="--"
       tx:quality="Default" tx:color="antiquewhite" tx:soundshape="57ceb05a-9a5d-4232-89e7-bff0d506be9c">
       <tx:region tx:mode="DFD" tx:attenuation="0 dB" tx:pan="0%" tx:wave="10">
-         <tx:bounds tx:high-vel="127" tx:low-key="C0" tx:low-vel="0" tx:high-key="C0"/>
+         <tx:bounds tx:high-vel="127" tx:low-key="C1" tx:low-vel="0" tx:high-key="C1"/>
       </tx:region>
       <tx:region tx:mode="DFD" tx:attenuation="0 dB" tx:pan="0%" tx:wave="11">
-         <tx:bounds tx:high-vel="127" tx:low-key="C#0" tx:low-vel="0" tx:high-key="C#0"/>
+         <tx:bounds tx:high-vel="127" tx:low-key="C#1" tx:low-vel="0" tx:high-key="C#1"/>
       </tx:region>
       <tx:region tx:mode="DFD" tx:attenuation="0 dB" tx:pan="0%" tx:wave="12">
-         <tx:bounds tx:high-vel="127" tx:low-key="F#0" tx:low-vel="0" tx:high-key="F#0"/>
+         <tx:bounds tx:high-vel="127" tx:low-key="F#1" tx:low-vel="0" tx:high-key="F#1"/>
       </tx:region>
       <tx:region tx:mode="DFD" tx:attenuation="0 dB" tx:pan="0%" tx:wave="13">
-         <tx:bounds tx:high-vel="127" tx:low-key="E0" tx:low-vel="0" tx:high-key="E0"/>
+         <tx:bounds tx:high-vel="127" tx:low-key="E1" tx:low-vel="0" tx:high-key="E1"/>
       </tx:region>
       <tx:region tx:mode="DFD" tx:attenuation="0 dB" tx:pan="0%" tx:wave="14">
-         <tx:bounds tx:high-vel="127" tx:low-key="D0" tx:low-vel="0" tx:high-key="D0"/>
+         <tx:bounds tx:high-vel="127" tx:low-key="D1" tx:low-vel="0" tx:high-key="D1"/>
       </tx:region>
       <tx:region tx:mode="DFD" tx:attenuation="0 dB" tx:pan="0%" tx:wave="15">
-         <tx:bounds tx:high-vel="127" tx:low-key="D#0" tx:low-vel="0" tx:high-key="D#0"/>
+         <tx:bounds tx:high-vel="127" tx:low-key="D#1" tx:low-vel="0" tx:high-key="D#1"/>
       </tx:region>
       <tx:region tx:mode="DFD" tx:attenuation="0 dB" tx:pan="0%" tx:wave="16">
-         <tx:bounds tx:high-vel="127" tx:low-key="F0" tx:low-vel="0" tx:high-key="F0"/>
+         <tx:bounds tx:high-vel="127" tx:low-key="F1" tx:low-vel="0" tx:high-key="F1"/>
+      </tx:region>
+   </tx:group>
+   <tx:group tx:name="Surdo" tx:volume="0 dB" tx:pan="0%" tx:coarse="0" tx:fine="0" tx:playmode="Oneshot"
+      tx:polymode="Poly" tx:playback="Resample" tx:noteprio="Last" tx:scale="100" tx:choke-group="0" tx:output="--"
+      tx:quality="Default" tx:color="aqua" tx:soundshape="57ceb05a-9a5d-4232-89e7-bff0d506be9c">
+      <tx:region tx:mode="DFD" tx:attenuation="0 dB" tx:pan="0%" tx:wave="17">
+         <tx:bounds tx:high-vel="127" tx:low-key="C-1" tx:low-vel="0" tx:high-key="C-1"/>
+      </tx:region>
+      <tx:region tx:mode="DFD" tx:attenuation="0 dB" tx:pan="0%" tx:wave="18">
+         <tx:bounds tx:high-vel="127" tx:low-key="D#-1" tx:low-vel="0" tx:high-key="D#-1"/>
+      </tx:region>
+      <tx:region tx:mode="DFD" tx:attenuation="0 dB" tx:pan="0%" tx:wave="19">
+         <tx:bounds tx:high-vel="127" tx:low-key="C#-1" tx:low-vel="0" tx:high-key="C#-1"/>
+      </tx:region>
+      <tx:region tx:mode="DFD" tx:attenuation="0 dB" tx:pan="0%" tx:wave="20">
+         <tx:bounds tx:high-vel="127" tx:low-key="D-1" tx:low-vel="0" tx:high-key="D-1"/>
+      </tx:region>
+      <tx:region tx:mode="DFD" tx:attenuation="0 dB" tx:pan="0%" tx:wave="21">
+         <tx:bounds tx:high-vel="127" tx:low-key="G-1" tx:low-vel="0" tx:high-key="G-1"/>
+      </tx:region>
+      <tx:region tx:mode="DFD" tx:attenuation="0 dB" tx:pan="0%" tx:wave="22">
+         <tx:bounds tx:high-vel="127" tx:low-key="F#-1" tx:low-vel="0" tx:high-key="F#-1"/>
+      </tx:region>
+      <tx:region tx:mode="DFD" tx:attenuation="0 dB" tx:pan="0%" tx:wave="23">
+         <tx:bounds tx:high-vel="127" tx:low-key="G#-1" tx:low-vel="0" tx:high-key="G#-1"/>
+      </tx:region>
+      <tx:region tx:mode="DFD" tx:attenuation="0 dB" tx:pan="0%" tx:wave="24">
+         <tx:bounds tx:high-vel="127" tx:low-key="E-1" tx:low-vel="0" tx:high-key="E-1"/>
+      </tx:region>
+      <tx:region tx:mode="DFD" tx:attenuation="0 dB" tx:pan="0%" tx:wave="25">
+         <tx:bounds tx:high-vel="127" tx:low-key="F-1" tx:low-vel="0" tx:high-key="F-1"/>
+      </tx:region>
+   </tx:group>
+   <tx:group tx:name="Tamborim" tx:volume="0 dB" tx:pan="0%" tx:coarse="0" tx:fine="0" tx:playmode="Oneshot"
+      tx:polymode="Poly" tx:playback="Resample" tx:noteprio="Last" tx:scale="100" tx:choke-group="0" tx:output="--"
+      tx:quality="Default" tx:color="aquamarine" tx:soundshape="57ceb05a-9a5d-4232-89e7-bff0d506be9c">
+      <tx:region tx:mode="DFD" tx:attenuation="0 dB" tx:pan="0%" tx:wave="26">
+         <tx:bounds tx:high-vel="127" tx:low-key="C2" tx:low-vel="0" tx:high-key="C2"/>
+      </tx:region>
+      <tx:region tx:mode="DFD" tx:attenuation="0 dB" tx:pan="0%" tx:wave="27">
+         <tx:bounds tx:high-vel="127" tx:low-key="C#2" tx:low-vel="0" tx:high-key="C#2"/>
+      </tx:region>
+      <tx:region tx:mode="DFD" tx:attenuation="0 dB" tx:pan="0%" tx:wave="28">
+         <tx:bounds tx:high-vel="127" tx:low-key="D2" tx:low-vel="0" tx:high-key="D2"/>
+      </tx:region>
+      <tx:region tx:mode="DFD" tx:attenuation="0 dB" tx:pan="0%" tx:wave="29">
+         <tx:bounds tx:high-vel="127" tx:low-key="D#2" tx:low-vel="0" tx:high-key="D#2"/>
+      </tx:region>
+      <tx:region tx:mode="DFD" tx:attenuation="0 dB" tx:pan="0%" tx:wave="30">
+         <tx:bounds tx:high-vel="127" tx:low-key="E2" tx:low-vel="0" tx:high-key="E2"/>
+      </tx:region>
+      <tx:region tx:mode="DFD" tx:attenuation="0 dB" tx:pan="0%" tx:wave="31">
+         <tx:bounds tx:high-vel="127" tx:low-key="F2" tx:low-vel="0" tx:high-key="F2"/>
+      </tx:region>
+      <tx:region tx:mode="DFD" tx:attenuation="0 dB" tx:pan="0%" tx:wave="32">
+         <tx:bounds tx:high-vel="127" tx:low-key="F#2" tx:low-vel="0" tx:high-key="F#2"/>
+      </tx:region>
+      <tx:region tx:mode="DFD" tx:attenuation="0 dB" tx:pan="0%" tx:wave="33">
+         <tx:bounds tx:high-vel="127" tx:low-key="G2" tx:low-vel="0" tx:high-key="G2"/>
+      </tx:region>
+   </tx:group>
+   <tx:group tx:name="Chocalho" tx:volume="0 dB" tx:pan="0%" tx:coarse="0" tx:fine="0" tx:playmode="Oneshot"
+      tx:polymode="Poly" tx:playback="Resample" tx:noteprio="Last" tx:scale="100" tx:choke-group="0" tx:output="--"
+      tx:quality="Default" tx:color="azure" tx:soundshape="57ceb05a-9a5d-4232-89e7-bff0d506be9c">
+      <tx:region tx:mode="RAM" tx:attenuation="0 dB" tx:pan="0%" tx:wave="34">
+         <tx:bounds tx:high-vel="127" tx:low-key="C3" tx:low-vel="0" tx:high-key="C3"/>
+      </tx:region>
+      <tx:region tx:mode="RAM" tx:attenuation="0 dB" tx:pan="0%" tx:wave="35">
+         <tx:bounds tx:high-vel="127" tx:low-key="C#3" tx:low-vel="0" tx:high-key="C#3"/>
+      </tx:region>
+      <tx:region tx:mode="RAM" tx:attenuation="0 dB" tx:pan="0%" tx:wave="36">
+         <tx:bounds tx:high-vel="127" tx:low-key="D3" tx:low-vel="0" tx:high-key="D3"/>
+      </tx:region>
+      <tx:region tx:mode="RAM" tx:attenuation="0 dB" tx:pan="0%" tx:wave="37">
+         <tx:bounds tx:high-vel="127" tx:low-key="D#3" tx:low-vel="0" tx:high-key="D#3"/>
+      </tx:region>
+      <tx:region tx:mode="DFD" tx:attenuation="0 dB" tx:pan="0%" tx:wave="38">
+         <tx:bounds tx:high-vel="127" tx:low-key="E3" tx:low-vel="0" tx:high-key="E3"/>
+      </tx:region>
+   </tx:group>
+   <tx:group tx:name="Agogo" tx:volume="0 dB" tx:pan="0%" tx:coarse="0" tx:fine="0" tx:playmode="Oneshot"
+      tx:polymode="Poly" tx:playback="Resample" tx:noteprio="Last" tx:scale="100" tx:choke-group="0" tx:output="--"
+      tx:quality="Default" tx:color="beige" tx:soundshape="57ceb05a-9a5d-4232-89e7-bff0d506be9c">
+      <tx:region tx:mode="DFD" tx:attenuation="0 dB" tx:pan="0%" tx:wave="39">
+         <tx:bounds tx:high-vel="127" tx:low-key="C4" tx:low-vel="0" tx:high-key="C4"/>
+      </tx:region>
+      <tx:region tx:mode="DFD" tx:attenuation="0 dB" tx:pan="0%" tx:wave="40">
+         <tx:bounds tx:high-vel="127" tx:low-key="C#4" tx:low-vel="0" tx:high-key="C#4"/>
+      </tx:region>
+      <tx:region tx:mode="DFD" tx:attenuation="0 dB" tx:pan="0%" tx:wave="41">
+         <tx:bounds tx:high-vel="127" tx:low-key="D4" tx:low-vel="0" tx:high-key="D4"/>
+      </tx:region>
+      <tx:region tx:mode="DFD" tx:attenuation="0 dB" tx:pan="0%" tx:wave="42">
+         <tx:bounds tx:high-vel="127" tx:low-key="D#4" tx:low-vel="0" tx:high-key="D#4"/>
+      </tx:region>
+      <tx:region tx:mode="DFD" tx:attenuation="0 dB" tx:pan="0%" tx:wave="43">
+         <tx:bounds tx:high-vel="127" tx:low-key="E4" tx:low-vel="0" tx:high-key="E4"/>
+      </tx:region>
+      <tx:region tx:mode="DFD" tx:attenuation="0 dB" tx:pan="0%" tx:wave="44">
+         <tx:bounds tx:high-vel="127" tx:low-key="F4" tx:low-vel="0" tx:high-key="F4"/>
+      </tx:region>
+      <tx:region tx:mode="DFD" tx:attenuation="0 dB" tx:pan="0%" tx:wave="45">
+         <tx:bounds tx:high-vel="127" tx:low-key="F#4" tx:low-vel="0" tx:high-key="F#4"/>
+      </tx:region>
+      <tx:region tx:mode="DFD" tx:attenuation="0 dB" tx:pan="0%" tx:wave="46">
+         <tx:bounds tx:high-vel="127" tx:low-key="G4" tx:low-vel="0" tx:high-key="G4"/>
+      </tx:region>
+      <tx:region tx:mode="DFD" tx:attenuation="0 dB" tx:pan="0%" tx:wave="47">
+         <tx:bounds tx:high-vel="127" tx:low-key="G#4" tx:low-vel="0" tx:high-key="G#4"/>
+      </tx:region>
+      <tx:region tx:mode="DFD" tx:attenuation="0 dB" tx:pan="0%" tx:wave="48">
+         <tx:bounds tx:high-vel="127" tx:low-key="A4" tx:low-vel="0" tx:high-key="A4"/>
+      </tx:region>
+      <tx:region tx:mode="DFD" tx:attenuation="0 dB" tx:pan="0%" tx:wave="49">
+         <tx:bounds tx:high-vel="127" tx:low-key="A#4" tx:low-vel="0" tx:high-key="A#4"/>
+      </tx:region>
+      <tx:region tx:mode="DFD" tx:attenuation="0 dB" tx:pan="0%" tx:wave="50">
+         <tx:bounds tx:high-vel="127" tx:low-key="B4" tx:low-vel="0" tx:high-key="B4"/>
       </tx:region>
    </tx:group>
 </tx:program>
