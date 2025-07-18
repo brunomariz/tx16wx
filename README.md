@@ -60,10 +60,33 @@ New program:
 
 ## Importing the instrument in the DAW
 
-- Now that you have the program or bank created, open your DAW (such as Pro Tools Intro, which is free at this time).
-- In the daw, create a stereo instrument track and insert the TX16Wx instrument.
+- Now that you have the program or bank created, open your DAW (such as Pro Tools Intro, which is free at this time, or Reaper, which has been freemium for a long time).
+- In the daw, create a stereo instrument track and insert the TX16Wx instrument. In Pro Tools, `Ctrl+Shift+N`, add instrument track, and then add the plugin as an insert.
 - Click load program and select the program you created
 - Open this track's MIDI editor and add the sounds
+
+Make sure your MIDI keyboard or MIDI item is outputting on the correct channel (usually channel 1 by default).
+
 - Note: the octave numbers in the DAW might not match the numbers in the TX16Wx plugin
 
 <img src="img/image-7.png" width="60%">
+
+### Reaper
+
+- `Ctrl+T` for new track, and FX button to search for the TX16Wx plugin. 
+
+- Make sure the .dll (VST2 or VST3) is placed in a folder Reaper scans for plugins:
+
+- Common VST plugin folders:
+
+  - `C:\Program Files\VSTPlugins`
+
+  - `C:\Program Files\Common Files\VST3`
+
+  - `C:\Program Files\Steinberg\VSTPlugins`
+
+- If TX16Wx is only a .dll in a "Steinberg" folder, Reaper can still use it — just make sure it’s pointing to that folder.
+
+- Set track input to MIDI (all channels)
+
+- Draw or record MIDI notes that correspond to the keyzones you mapped in TX16Wx (e.g., C3, D3, etc.)
