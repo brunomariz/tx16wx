@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tx:program tx:quality="Default" tx:name="samba" tx:icon="#side-drum"
+   xsi:schemaLocation="http://www.tx16wx.com/3.0/ program" tx:created-by="30700"
+   xmlns:tx="http://www.tx16wx.com/3.0/program" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/repinique/repinique-head1.wav" tx:id="0"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/repinique/repinique-head2.wav" tx:id="1"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/repinique/repinique-rimshot2.wav" tx:id="2"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/repinique/repinique-rimshot3.wav" tx:id="3"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/repinique/repinique-rimshot5.wav" tx:id="4"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/repinique/repinique-rod1.wav" tx:id="5"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/repinique/repinique-hand1.wav" tx:id="6"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/repinique/repinique-hand4.wav" tx:id="7"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/repinique/repinique-hand6.wav" tx:id="8"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/repinique/repinique-hand3.wav" tx:id="9"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/caixa/caixa-down1.wav" tx:id="10"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/caixa/caixa-down4.wav" tx:id="11"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/caixa/caixa-rimshot.wav" tx:id="12"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/caixa/caixa-up1.wav" tx:id="13"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/caixa/caixa-up2.wav" tx:id="14"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/caixa/caixa-up3.wav" tx:id="15"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/caixa/caixa-up4.wav" tx:id="16"/>
+   <tx:bounds tx:high-vel="127" tx:low-key="C-1" tx:high-key="G9" tx:low-vel="0"/>
+   <tx:soundshape tx:id="57ceb05a-9a5d-4232-89e7-bff0d506be9c" tx:name="New Sound" tx:pan="0%" tx:unison-depth="100%"
+      tx:unison="1" tx:pwm="0%" tx:volume="0 dB" tx:glide-mode="Held" tx:unison-spread="0Ct" tx:unison-pan="100%"
+      tx:unison-start="0ms" tx:unison-cyclic-spread="false">
+      <tx:aeg tx:attack="0ms" tx:attack-shape="-50%" tx:decay1="500ms" tx:decay1-shape="-50%" tx:decay2="500ms"
+         tx:decay2-shape="-50%" tx:release="50.0ms" tx:release-shape="-50%" tx:level1="0 dB" tx:level2="0 dB"
+         tx:sustain="0 dB"/>
+      <tx:send tx:level="0 dB"/>
+      <tx:send tx:level="0 dB"/>
+      <tx:send tx:level="0 dB"/>
+      <tx:modulation/>
+   </tx:soundshape>
+   <tx:group tx:name="Repinique" tx:volume="0 dB" tx:pan="0%" tx:coarse="0" tx:fine="0" tx:playmode="Oneshot"
+      tx:polymode="Poly" tx:playback="Resample" tx:noteprio="Last" tx:scale="100" tx:choke-group="0" tx:output="--"
+      tx:quality="Default" tx:color="aliceblue" tx:soundshape="57ceb05a-9a5d-4232-89e7-bff0d506be9c">
+      <tx:region tx:mode="DFD" tx:attenuation="0 dB" tx:pan="0%" tx:wave="0">
+         <tx:bounds tx:high-vel="127" tx:low-key="C-1" tx:low-vel="0" tx:high-key="C-1"/>
+      </tx:region>
+      <tx:region tx:mode="DFD" tx:attenuation="0 dB" tx:pan="0%" tx:wave="1">
+         <tx:bounds tx:high-vel="127" tx:low-key="C#-1" tx:low-vel="0" tx:high-key="C#-1"/>
+      </tx:region>
+      <tx:region tx:mode="DFD" tx:attenuation="0 dB" tx:pan="0%" tx:wave="2">
+         <tx:bounds tx:high-vel="127" tx:low-key="D#-1" tx:low-vel="0" tx:high-key="D#-1"/>
+      </tx:region>
+      <tx:region tx:mode="DFD" tx:attenuation="0 dB" tx:pan="0%" tx:wave="3">
+         <tx:bounds tx:high-vel="127" tx:low-key="E-1" tx:low-vel="0" tx:high-key="E-1"/>
+      </tx:region>
+      <tx:region tx:mode="DFD" tx:attenuation="0 dB" tx:pan="0%" tx:wave="4">
+         <tx:bounds tx:high-vel="127" tx:low-key="D-1" tx:low-vel="0" tx:high-key="D-1"/>
+      </tx:region>
+      <tx:region tx:mode="DFD" tx:attenuation="0 dB" tx:pan="0%" tx:wave="5">
+         <tx:bounds tx:high-vel="127" tx:low-key="F-1" tx:low-vel="0" tx:high-key="F-1"/>
+      </tx:region>
+      <tx:region tx:mode="DFD" tx:attenuation="0 dB" tx:pan="0%" tx:wave="6">
+         <tx:bounds tx:high-vel="127" tx:low-key="G-1" tx:low-vel="0" tx:high-key="G-1"/>
+      </tx:region>
+      <tx:region tx:mode="DFD" tx:attenuation="0 dB" tx:pan="0%" tx:wave="7">
+         <tx:bounds tx:high-vel="127" tx:low-key="F#-1" tx:low-vel="0" tx:high-key="F#-1"/>
+      </tx:region>
+      <tx:region tx:mode="DFD" tx:attenuation="0 dB" tx:pan="0%" tx:wave="8">
+         <tx:bounds tx:high-vel="127" tx:low-key="A-1" tx:low-vel="0" tx:high-key="A-1"/>
+      </tx:region>
+      <tx:region tx:mode="DFD" tx:attenuation="0 dB" tx:pan="0%" tx:wave="9">
+         <tx:bounds tx:high-vel="127" tx:low-key="G#-1" tx:low-vel="0" tx:high-key="G#-1"/>
+      </tx:region>
+   </tx:group>
+   <tx:group tx:name="Caixa" tx:volume="0 dB" tx:pan="0%" tx:coarse="0" tx:fine="0" tx:playmode="Oneshot"
+      tx:polymode="Poly" tx:playback="Resample" tx:noteprio="Last" tx:scale="100" tx:choke-group="0" tx:output="--"
+      tx:quality="Default" tx:color="antiquewhite" tx:soundshape="57ceb05a-9a5d-4232-89e7-bff0d506be9c">
+      <tx:region tx:mode="DFD" tx:attenuation="0 dB" tx:pan="0%" tx:wave="10">
+         <tx:bounds tx:high-vel="127" tx:low-key="C0" tx:low-vel="0" tx:high-key="C0"/>
+      </tx:region>
+      <tx:region tx:mode="DFD" tx:attenuation="0 dB" tx:pan="0%" tx:wave="11">
+         <tx:bounds tx:high-vel="127" tx:low-key="C#0" tx:low-vel="0" tx:high-key="C#0"/>
+      </tx:region>
+      <tx:region tx:mode="DFD" tx:attenuation="0 dB" tx:pan="0%" tx:wave="12">
+         <tx:bounds tx:high-vel="127" tx:low-key="F#0" tx:low-vel="0" tx:high-key="F#0"/>
+      </tx:region>
+      <tx:region tx:mode="DFD" tx:attenuation="0 dB" tx:pan="0%" tx:wave="13">
+         <tx:bounds tx:high-vel="127" tx:low-key="E0" tx:low-vel="0" tx:high-key="E0"/>
+      </tx:region>
+      <tx:region tx:mode="DFD" tx:attenuation="0 dB" tx:pan="0%" tx:wave="14">
+         <tx:bounds tx:high-vel="127" tx:low-key="D0" tx:low-vel="0" tx:high-key="D0"/>
+      </tx:region>
+      <tx:region tx:mode="DFD" tx:attenuation="0 dB" tx:pan="0%" tx:wave="15">
+         <tx:bounds tx:high-vel="127" tx:low-key="D#0" tx:low-vel="0" tx:high-key="D#0"/>
+      </tx:region>
+      <tx:region tx:mode="DFD" tx:attenuation="0 dB" tx:pan="0%" tx:wave="16">
+         <tx:bounds tx:high-vel="127" tx:low-key="F0" tx:low-vel="0" tx:high-key="F0"/>
+      </tx:region>
+   </tx:group>
+</tx:program>
