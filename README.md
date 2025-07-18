@@ -19,15 +19,15 @@
 
 Opened plugin:
 
-<img src="image.png" width="60%">
+<img src="img/image.png" width="60%">
 
 - Find your samples in the file explorer. Enable the sound button below to hear the samples when clicked.
 
-<img src="image-1.png" width="30%">
+<img src="img/image-1.png" width="30%">
 
 - Open the regions tab and drag the samples. They will be mapped to midi keys.
 
-<img src="image-2.png" width="60%">
+<img src="img/image-2.png" width="60%">
 
 - In the Goups tab, change the mode to Oneshot to play the whole sound when the midi key is played, instead of cutting the sound to the duration of the note.
 
@@ -39,19 +39,19 @@ Opened plugin:
 
 Duplicate program:
 
-<img src="image-3.png" width="60%">
+<img src="img/image-3.png" width="60%">
 
 New program:
 
-<img src="image-4.png" width="60%">
+<img src="img/image-4.png" width="60%">
 
 - To delete a program or a program slot, simply right-click it and choose the option you need. Notice that deleting the program slot will only remove the slot, but the program can be reopened later from a new slot by selecting it from the program name dropdown menu.
 
-<img src="image-5.png" width="60%">
+<img src="img/image-5.png" width="60%">
 
 - It is also possible to add all sounds into a single program, and perhaps create different groups in the program to differentiate and apply different rules. In this case all the rules are the same, but different groups were created for organization purposes.
 
-<img src="image-6.png" width="60%">
+<img src="img/image-6.png" width="60%">
 
 ### Exporting the program
 
@@ -66,4 +66,4 @@ New program:
 - Open this track's MIDI editor and add the sounds
 - Note: the octave numbers in the DAW might not match the numbers in the TX16Wx plugin
 
-<img src="image-7.png" width="60%">
+<img src="img/image-7.png" width="60%">
