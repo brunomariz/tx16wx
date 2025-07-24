@@ -2,57 +2,57 @@
 <tx:program tx:quality="Default" tx:name="samba" tx:icon="#side-drum"
    xsi:schemaLocation="http://www.tx16wx.com/3.0/ program" tx:created-by="30700"
    xmlns:tx="http://www.tx16wx.com/3.0/program" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/repinique/repinique-head1.wav" tx:id="0"/>
-   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/repinique/repinique-head2.wav" tx:id="1"/>
-   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/repinique/repinique-rimshot2.wav" tx:id="2"/>
-   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/repinique/repinique-rimshot3.wav" tx:id="3"/>
-   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/repinique/repinique-rimshot5.wav" tx:id="4"/>
-   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/repinique/repinique-rod1.wav" tx:id="5"/>
-   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/repinique/repinique-hand1.wav" tx:id="6"/>
-   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/repinique/repinique-hand4.wav" tx:id="7"/>
-   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/repinique/repinique-hand6.wav" tx:id="8"/>
-   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/repinique/repinique-hand3.wav" tx:id="9"/>
-   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/caixa/caixa-down1.wav" tx:id="10"/>
-   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/caixa/caixa-down4.wav" tx:id="11"/>
-   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/caixa/caixa-rimshot.wav" tx:id="12"/>
-   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/caixa/caixa-up1.wav" tx:id="13"/>
-   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/caixa/caixa-up2.wav" tx:id="14"/>
-   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/caixa/caixa-up3.wav" tx:id="15"/>
-   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/caixa/caixa-up4.wav" tx:id="16"/>
-   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/surdo/surdo1-1.wav" tx:id="17"/>
-   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/surdo/surdo2-1.wav" tx:id="18"/>
-   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/surdo/surdo1-2.wav" tx:id="19"/>
-   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/surdo/surdo2-2.wav" tx:id="20"/>
-   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/surdo/terceira-preso2.wav" tx:id="21"/>
-   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/surdo/terceira-preso1.wav" tx:id="22"/>
-   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/surdo/terceira-mao1.wav" tx:id="23"/>
-   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/surdo/terceira-solto1.wav" tx:id="24"/>
-   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/surdo/terceira-solto2.wav" tx:id="25"/>
-   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/tamborim/tamb1-1.wav" tx:id="26"/>
-   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/tamborim/tamb1-2.wav" tx:id="27"/>
-   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/tamborim/tamb2-1.wav" tx:id="28"/>
-   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/tamborim/tamb2-2.wav" tx:id="29"/>
-   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/tamborim/tamb3-1.wav" tx:id="30"/>
-   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/tamborim/tamb3-2.wav" tx:id="31"/>
-   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/tamborim/tamb4-1.wav" tx:id="32"/>
-   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/tamborim/tamb4-2.wav" tx:id="33"/>
-   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/chocalho/choc-frente1.wav" tx:id="34"/>
-   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/chocalho/choc-frente2.wav" tx:id="35"/>
-   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/chocalho/choc-tras1.wav" tx:id="36"/>
-   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/chocalho/choc-tras2.wav" tx:id="37"/>
-   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/chocalho/choc-parada1.wav" tx:id="38"/>
-   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/agogo/agogo4b-boca4-1.wav" tx:id="39"/>
-   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/agogo/agogo4b-boca4-2.wav" tx:id="40"/>
-   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/agogo/agogo4b-boca3-1.wav" tx:id="41"/>
-   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/agogo/agogo4b-boca3-2.wav" tx:id="42"/>
-   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/agogo/agogo4b-boca2-1.wav" tx:id="43"/>
-   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/agogo/agogo4b-boca2-2.wav" tx:id="44"/>
-   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/agogo/agogo4b-boca1-1.wav" tx:id="45"/>
-   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/agogo/agogo4b-boca1-2.wav" tx:id="46"/>
-   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/agogo/agogo2b-boca2-1.wav" tx:id="47"/>
-   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/agogo/agogo2b-boca2-2.wav" tx:id="48"/>
-   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/agogo/agogo2b-boca1-1.wav" tx:id="49"/>
-   <tx:wave tx:path="file:///C:/Users/bmari/projects/ts16wx/samples/processed/agogo/agogo2b-boca1-2.wav" tx:id="50"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/repinique/repinique-head1.wav" tx:id="0"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/repinique/repinique-head2.wav" tx:id="1"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/repinique/repinique-rimshot2.wav" tx:id="2"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/repinique/repinique-rimshot3.wav" tx:id="3"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/repinique/repinique-rimshot5.wav" tx:id="4"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/repinique/repinique-rod1.wav" tx:id="5"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/repinique/repinique-hand1.wav" tx:id="6"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/repinique/repinique-hand4.wav" tx:id="7"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/repinique/repinique-hand6.wav" tx:id="8"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/repinique/repinique-hand3.wav" tx:id="9"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/caixa/caixa-down1.wav" tx:id="10"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/caixa/caixa-down4.wav" tx:id="11"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/caixa/caixa-rimshot.wav" tx:id="12"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/caixa/caixa-up1.wav" tx:id="13"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/caixa/caixa-up2.wav" tx:id="14"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/caixa/caixa-up3.wav" tx:id="15"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/caixa/caixa-up4.wav" tx:id="16"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/surdo/surdo1-1.wav" tx:id="17"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/surdo/surdo2-1.wav" tx:id="18"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/surdo/surdo1-2.wav" tx:id="19"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/surdo/surdo2-2.wav" tx:id="20"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/surdo/terceira-preso2.wav" tx:id="21"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/surdo/terceira-preso1.wav" tx:id="22"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/surdo/terceira-mao1.wav" tx:id="23"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/surdo/terceira-solto1.wav" tx:id="24"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/surdo/terceira-solto2.wav" tx:id="25"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/tamborim/tamb1-1.wav" tx:id="26"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/tamborim/tamb1-2.wav" tx:id="27"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/tamborim/tamb2-1.wav" tx:id="28"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/tamborim/tamb2-2.wav" tx:id="29"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/tamborim/tamb3-1.wav" tx:id="30"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/tamborim/tamb3-2.wav" tx:id="31"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/tamborim/tamb4-1.wav" tx:id="32"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/tamborim/tamb4-2.wav" tx:id="33"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/chocalho/choc-frente1.wav" tx:id="34"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/chocalho/choc-frente2.wav" tx:id="35"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/chocalho/choc-tras1.wav" tx:id="36"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/chocalho/choc-tras2.wav" tx:id="37"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/chocalho/choc-parada1.wav" tx:id="38"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/agogo/agogo4b-boca4-1.wav" tx:id="39"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/agogo/agogo4b-boca4-2.wav" tx:id="40"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/agogo/agogo4b-boca3-1.wav" tx:id="41"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/agogo/agogo4b-boca3-2.wav" tx:id="42"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/agogo/agogo4b-boca2-1.wav" tx:id="43"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/agogo/agogo4b-boca2-2.wav" tx:id="44"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/agogo/agogo4b-boca1-1.wav" tx:id="45"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/agogo/agogo4b-boca1-2.wav" tx:id="46"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/agogo/agogo2b-boca2-1.wav" tx:id="47"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/agogo/agogo2b-boca2-2.wav" tx:id="48"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/agogo/agogo2b-boca1-1.wav" tx:id="49"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/agogo/agogo2b-boca1-2.wav" tx:id="50"/>
    <tx:bounds tx:high-vel="127" tx:low-key="C-1" tx:high-key="G9" tx:low-vel="0"/>
    <tx:soundshape tx:id="57ceb05a-9a5d-4232-89e7-bff0d506be9c" tx:name="New Sound" tx:pan="0%" tx:unison-depth="100%"
       tx:unison="1" tx:pwm="0%" tx:volume="0 dB" tx:glide-mode="Held" tx:unison-spread="0Ct" tx:unison-pan="100%"
@@ -203,7 +203,7 @@
       </tx:region>
    </tx:group>
    <tx:group tx:name="Agogo" tx:volume="0 dB" tx:pan="0%" tx:coarse="0" tx:fine="0" tx:playmode="Oneshot"
-      tx:polymode="Poly" tx:playback="Resample" tx:noteprio="Last" tx:scale="100" tx:choke-group="0" tx:output="--"
+      tx:polymode="Mono" tx:playback="Resample" tx:noteprio="Last" tx:scale="100" tx:choke-group="0" tx:output="--"
       tx:quality="Default" tx:color="beige" tx:soundshape="57ceb05a-9a5d-4232-89e7-bff0d506be9c">
       <tx:region tx:mode="DFD" tx:attenuation="0 dB" tx:pan="0%" tx:wave="39">
          <tx:bounds tx:high-vel="127" tx:low-key="C4" tx:low-vel="0" tx:high-key="C4"/>
