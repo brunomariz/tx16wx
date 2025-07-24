@@ -146,7 +146,7 @@
       </tx:region>
    </tx:group>
    <tx:group tx:name="Surdo" tx:volume="0 dB" tx:pan="0%" tx:coarse="0" tx:fine="0" tx:playmode="Oneshot"
-      tx:polymode="Poly" tx:playback="Resample" tx:noteprio="Last" tx:scale="100" tx:choke-group="0" tx:output="--"
+      tx:polymode="Mono" tx:playback="Resample" tx:noteprio="Last" tx:scale="100" tx:choke-group="0" tx:output="--"
       tx:quality="Default" tx:color="aqua" tx:soundshape="57ceb05a-9a5d-4232-89e7-bff0d506be9c">
       <tx:region tx:mode="DFD" tx:attenuation="0 dB" tx:pan="0%" tx:wave="17">
          <tx:bounds tx:high-vel="127" tx:low-key="C-1" tx:low-vel="0" tx:high-key="C-1"/>
