@@ -1,92 +1,88 @@
 # TX16Wx
 
+## Criando um instrumento de samba
 
-## Creating a samba instument
+### Obtendo samples
 
-### Getting samples
+- Pegue as samples em [https://freesound.org/](https://freesound.org/) ou onde preferir e corte-as em arquivos WAV individuais (o Audacity é uma boa opção).
+- O Audacity também permite gravar o som do seu próprio PC (loopback), então se você estiver com um vídeo ou áudio tocando, pode abrir o Audacity e fazer o seguinte:
+  - Clique em *Configuração de Áudio* (Audio Setup)
+  - Defina *Host* como **WASAPI**
+  - Defina o *Dispositivo de Gravação* como **Fones de ouvido (loopback)** ou **Caixas de Som Realtek (loopback)**
+  - Crie uma faixa *stereo* e clique em gravar
 
-- Get the samples from https://freesound.org/ or wherever and cut them into individual WAV files (Audacity is a good option).
-- Audacity also allows recording the sound from your PC (loopback), so if you have a video playing you can open Audacity, and do the following:
-  - Click Audio Setup for settings
-  - Set Host: WASAPI
-  - Set Recording Device: Earphones (loopback) or Realtek Speakers (loopback)
-  - Create a stereo track and hit record
+### Usando as samples no sampler MIDI
 
-### Using the samples in the MIDI sampler
+- Baixe o TX16Wx. [Ele não funciona de forma independente](https://www.tx16wx.com/f-a-q/), então também baixe o [SAVIHost](https://www.hermannseib.com/english/savihost.htm). Usei a versão VST2 com teclado.
+- Quando você executar o arquivo do savihost, ele abrirá uma janela do explorador. Encontre o plugin TX16Wx instalado. No meu caso, está em `C:\Program Files\Steinberg\VSTPlugins\TX16Wx.dll`.
 
-- Get TX16Wx. [It cannot be used standalone](https://www.tx16wx.com/f-a-q/), so download [SAVIHost](https://www.hermannseib.com/english/savihost.htm) aswell. I'll go for the VST2 version, with keyboard.
-- When you run the savihost executable, it will open an explorer window. Find the installed TX16Wx plug in to open it. In my case, it is under `C:\Program Files\Steinberg\VSTPlugins\TX16Wx.dll`.
-
-Opened plugin:
+Plugin aberto:
 
 <img src="img/image.png" width="60%">
 
-- Find your samples in the file explorer. Enable the sound button below to hear the samples when clicked.
+- Encontre suas samples no explorador de arquivos. Ative o botão de som abaixo para ouvir os samples ao clicar.
 
 <img src="img/image-1.png" width="30%">
 
-- Open the regions tab and drag the samples. They will be mapped to midi keys.
+- Abra a aba **Regions** e arraste os samples para lá. Eles serão mapeados para teclas MIDI.
 
 <img src="img/image-2.png" width="60%">
 
-- In the Goups tab, change the mode to Oneshot to play the whole sound when the midi key is played, instead of cutting the sound to the duration of the note.
+- Na aba **Groups**, altere o modo para **Oneshot** para que o som toque inteiro ao pressionar a tecla MIDI, ao invés de cortar de acordo com a duração da nota.
 
-- The Poly section can be used to set the max polyphony number.
-- The Waves tab can be used to cut the samples, but we've used Audacity for that.
+- Na aba **Groups**, é possível definir o modo de polifonia. `Poly` é o modo padrão, que faz com que cada tecla toque uma nova voz. O modo `Mono` faz com que ao tocar uma tecla o último som pare, como em instrumentos monofônicos. Isso pode ser usado para evitar sobreposição de notas em uma única boca do agogô, por exemplo, colocando os sons de cada boca em um grupo separado (mais realista e mais trabalho), ou simplesmente deixando todo o agogô monofônico (opção menos realista, menos trabalho). Segundo [o manual do TX16Wx](https://www.tx16wx.com/download/), modo `Legato` serve para bends.
+- A aba **Waves** pode ser usada para cortar os samples, mas usamos o Audacity para isso.
 
-- To add more instruments, right-click an empty region of the plugin and click new slot.
-- The newly created slot may be set to the same program as you just created, like shown below. In this case, click the gear icon and select New program.
+- Para adicionar mais instrumentos, clique com o botão direito em uma área vazia do plugin e selecione **New Slot**.
+- O novo slot pode estar usando o mesmo programa que você acabou de criar. Nesse caso, clique no ícone de engrenagem e selecione **New Program**.
 
-Duplicate program:
+Programa duplicado:
 
 <img src="img/image-3.png" width="60%">
 
-New program:
+Novo programa:
 
 <img src="img/image-4.png" width="60%">
 
-- To delete a program or a program slot, simply right-click it and choose the option you need. Notice that deleting the program slot will only remove the slot, but the program can be reopened later from a new slot by selecting it from the program name dropdown menu.
+- Para excluir um programa ou slot, clique com o botão direito e escolha a opção desejada. Note que excluir o slot remove apenas o slot, mas o programa pode ser reaberto a partir de um novo slot selecionando-o no menu de nome do programa.
 
 <img src="img/image-5.png" width="60%">
 
-- It is also possible to add all sounds into a single program, and perhaps create different groups in the program to differentiate and apply different rules. In this case all the rules are the same, but different groups were created for organization purposes.
+- Também é possível adicionar todos os sons em um único programa e criar diferentes grupos para organização ou aplicação de regras distintas.
 
 <img src="img/image-6.png" width="60%">
 
-### Exporting the program
+### Exportando o programa
 
-- When you're done adding sounds to the instrument, you can export the program in `Plugin>Save Program`. If you used multiple programs, you can export the bank instead in `Plugin>Save Bank`. Make sure to choose a folder, as this might create several files.
+- Quando terminar de adicionar os sons ao instrumento, você pode exportar o programa em `Plugin > Save Program`. Se usou múltiplos programas, exporte o banco completo em `Plugin > Save Bank`. Certifique-se de escolher uma pasta, pois isso pode gerar vários arquivos.
 
+## Importando o instrumento na DAW
 
-## Importing the instrument in the DAW
+- Agora que você tem o programa ou banco criado, abra sua DAW (Pro Tools Intro e [Reaper](https://www.reaper.fm/download.php) são boas opções gratuitas).
+- Na DAW, crie uma faixa de instrumento *stereo* e insira o TX16Wx como plugin. No Pro Tools, pressione `Ctrl+Shift+N`, crie a faixa de instrumento e adicione o plugin como insert.
+- Clique em **Load Program** e selecione o programa que você criou.
+- Abra o editor MIDI da faixa e adicione as notas correspondentes aos sons.
 
-- Now that you have the program or bank created, open your DAW (such as Pro Tools Intro, which is free at this time, or Reaper, which has been freemium for a long time).
-- In the daw, create a stereo instrument track and insert the TX16Wx instrument. In Pro Tools, `Ctrl+Shift+N`, add instrument track, and then add the plugin as an insert.
-- Click load program and select the program you created
-- Open this track's MIDI editor and add the sounds
+Certifique-se de que seu teclado MIDI ou item MIDI esteja enviando para o canal correto (geralmente canal 1 por padrão).
 
-Make sure your MIDI keyboard or MIDI item is outputting on the correct channel (usually channel 1 by default).
-
-- Note: the octave numbers in the DAW might not match the numbers in the TX16Wx plugin
+> **Nota:** os números das oitavas na DAW podem não coincidir com os do plugin TX16Wx.
 
 <img src="img/image-7.png" width="60%">
 
 ### Reaper
 
-- `Ctrl+T` for new track, and FX button to search for the TX16Wx plugin. 
+- Pressione `Ctrl+T` para criar uma nova faixa, e clique no botão **FX** na faixa para buscar pelo plugin TX16Wx.
 
-- Make sure the .dll (VST2 or VST3) is placed in a folder Reaper scans for plugins:
+- Certifique-se de que o `.dll` (VST2 ou VST3) está em uma pasta que o Reaper escaneia para plugins.
 
-- Common VST plugin folders:
+- Pastas comuns de plugins VST:
 
   - `C:\Program Files\VSTPlugins`
-
   - `C:\Program Files\Common Files\VST3`
-
   - `C:\Program Files\Steinberg\VSTPlugins`
 
-- If TX16Wx is only a .dll in a "Steinberg" folder, Reaper can still use it — just make sure it’s pointing to that folder.
+- Se o TX16Wx for um `.dll` na pasta "Steinberg", o Reaper pode usá-lo — apenas aponte o Reaper para essa pasta (provavelmente já está, por padrão).
 
-- Set track input to MIDI (all channels)
+- Defina a entrada da faixa para **MIDI (todos os canais)**
 
-- Draw or record MIDI notes that correspond to the keyzones you mapped in TX16Wx (e.g., C3, D3, etc.)
+- Desenhe ou grave notas MIDI que correspondam às zonas mapeadas no TX16Wx.
