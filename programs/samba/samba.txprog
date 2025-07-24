@@ -12,13 +12,19 @@
    <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/repinique/repinique-hand4.wav" tx:id="7"/>
    <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/repinique/repinique-hand6.wav" tx:id="8"/>
    <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/repinique/repinique-hand3.wav" tx:id="9"/>
-   <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/caixa/caixa-down1.wav" tx:id="10"/>
-   <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/caixa/caixa-down4.wav" tx:id="11"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/caixa/caixa-down1.wav" tx:id="10"
+      tx:start="591"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/caixa/caixa-down4.wav" tx:id="11"
+      tx:start="228"/>
    <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/caixa/caixa-rimshot.wav" tx:id="12"/>
-   <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/caixa/caixa-up1.wav" tx:id="13"/>
-   <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/caixa/caixa-up2.wav" tx:id="14"/>
-   <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/caixa/caixa-up3.wav" tx:id="15"/>
-   <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/caixa/caixa-up4.wav" tx:id="16"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/caixa/caixa-up1.wav" tx:id="13"
+      tx:start="401"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/caixa/caixa-up2.wav" tx:id="14"
+      tx:start="121"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/caixa/caixa-up3.wav" tx:id="15"
+      tx:start="338"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/caixa/caixa-up4.wav" tx:id="16"
+      tx:start="215"/>
    <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/surdo/surdo1-1.wav" tx:id="17"/>
    <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/surdo/surdo2-1.wav" tx:id="18"/>
    <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/surdo/surdo1-2.wav" tx:id="19"/>
