@@ -2,16 +2,22 @@
 <tx:program tx:quality="Default" tx:name="samba" tx:icon="#side-drum"
    xsi:schemaLocation="http://www.tx16wx.com/3.0/ program" tx:created-by="30700"
    xmlns:tx="http://www.tx16wx.com/3.0/program" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-   <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/repinique/repinique-head1.wav" tx:id="0"/>
-   <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/repinique/repinique-head2.wav" tx:id="1"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/repinique/repinique-head1.wav" tx:id="0"
+      tx:start="107"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/repinique/repinique-head2.wav" tx:id="1"
+      tx:start="105"/>
    <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/repinique/repinique-rimshot2.wav" tx:id="2"/>
    <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/repinique/repinique-rimshot3.wav" tx:id="3"/>
    <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/repinique/repinique-rimshot5.wav" tx:id="4"/>
    <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/repinique/repinique-rod1.wav" tx:id="5"/>
-   <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/repinique/repinique-hand1.wav" tx:id="6"/>
-   <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/repinique/repinique-hand4.wav" tx:id="7"/>
-   <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/repinique/repinique-hand6.wav" tx:id="8"/>
-   <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/repinique/repinique-hand3.wav" tx:id="9"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/repinique/repinique-hand1.wav" tx:id="6"
+      tx:start="233"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/repinique/repinique-hand4.wav" tx:id="7"
+      tx:start="157"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/repinique/repinique-hand6.wav" tx:id="8"
+      tx:start="111"/>
+   <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/repinique/repinique-hand3.wav" tx:id="9"
+      tx:start="158"/>
    <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/caixa/caixa-down1.wav" tx:id="10"
       tx:start="591"/>
    <tx:wave tx:path="file:///C:/Users/bmari/projects/tx16wx/samples/processed/caixa/caixa-down4.wav" tx:id="11"
