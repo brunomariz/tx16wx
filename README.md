@@ -4,10 +4,10 @@
 
 Para usar o plugin:
 
-- Baixe o [Reaper](https://www.reaper.fm/download.php).
-- Baixe o [TX16Wx](https://www.tx16wx.com/download/).
+- Baixe e instale o [Reaper](https://www.reaper.fm/download.php).
+- Baixe e instale o [TX16Wx](https://www.tx16wx.com/download/).
 - Baixe [este repositório](https://github.com/brunomariz/tx16wx/archive/refs/heads/main.zip).
-- Descompacte o repositório
+- Descompacte o repositório.
 - Abra `examples/template.rpp` no Reaper.
 - Clique nos items MIDI para fazer alterações.
 - Mais instruções de como usar o Reaper: https://www.reaper.fm/videos.php
